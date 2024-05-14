@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>FlavourFinders</title>
+    <link rel="icon" type="image/x-icon" href="images\Favicon.ico" />
+  </head>
+  <body class="bg-slate-900">
+    <div class="h-full w-full">
+      <!-- navBar starts here -->
+      <nav
+        class="mt-0 w-full h-11 bg-gray-700 flex items-center justify-between px-2 fixed top-0"
+      >
+        <div class="w-auto flex items-center">
+          <div
+            class="h-10 w-10 bg-white rounded-full overflow-hidden flex items-center"
+          >
+            <img
+              class="h-18 w-24"
+              src="dist\images\605e2aeb1284410fad77b2b5ca3f5ed9.jpg"
+              alt=""
+            />
+          </div>
+          <span class="text-2xl text-amber-700 font-semibold shadow-sm p-0 m-0">
+            FlavourFinders
+          </span>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="text-gray-50 font-semibold hover:text-rose-300">
+            <button>Home</button>
+          </div>
+          <div class="text-gray-50 font-semibold hover:text-rose-300">
+            <button>About Us</button>
+          </div>
+          <div class="text-gray-50 font-semibold hover:text-rose-300">
+            <button>References</button>
+          </div>
+        </div>
+        <div>
+          <button
+            class="bg-gray-50 rounded-full text-[17px] font-semibold text-emerald-950 px-3 py-1 hover:bg-rose-300 hover:py-1.5 hover:text-white"
+          >
+            Sign In
+          </button>
+        </div>
+      </nav>
+      <!-- nav bar ends here -->
+
+      <!-- local navigation starts here -->
+      <div class="h-[95%] w-[20%] bg-gray-600 fixed flex flex-col items-center">
+        <div class="flex justify-center align-middle p-1 w-[100%]">
+          <input
+            type="search"
+            class="w-[90%] h-9 rounded-full mt-3 hover:bg-rose-300 font-sans text-sm p-2"
+          />
+        </div>
+        <div
+          class="h-[90%] w-[97%] bg-slate-500 rounded-md mt-1 flex flex-col p-3"
+        >
+          <button class="h-7 w-full text-gray-50 hover:text-rose-300">
+            Traditional
+          </button>
+          <button class="h-7 w-full text-gray-50 hover:text-rose-300">
+            Popular
+          </button>
+          <button class="h-7 w-full text-gray-50 hover:text-rose-300">
+            Trending
+          </button>
+          <button class="h-7 w-full text-gray-50 hover:text-rose-300">
+            Street Food
+          </button>
+        </div>
+      </div>
+      <!-- local navigation ends here -->
+
+      <!-- content starts here  -->
+      <div
+        class="mt-11 ml-[20%] min-h-screen h-auto w-80% bg-slate-900 px-3 py-3 grid grid-cols-4 gap-6"
+      >
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2015/08/Madra-Himachal.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Madra & Bhature</span>
+            <p class="text-[12px] text-slate-700 font-semibold">Himanchal</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2020/02/Irachi-Ishtu-Dish-Kerala.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Irachi Ishtu</span>
+            <p class="text-[12px] text-slate-700 font-semibold">Kerala</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2020/02/Makki-Roti-With-Sarson-Saag.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Makki Roti With Sarson Saag</span>
+            <p class="text-[12px] text-slate-700 font-semibold">Punjab</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2015/08/Daab-Chingri-West-Bengal.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Daab Chingri</span>
+            <p class="text-[12px] text-slate-700 font-semibold">West Bengal</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2020/02/And-Dried-Bamboo-Strips.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Pork And Dried Bamboo Strips</span>
+            <p class="text-[12px] text-slate-700 font-semibold">Nagaland</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2015/08/Thalipeeth-Maharashtra.png"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Thalipeeth</span>
+            <p class="text-[12px] text-slate-700 font-semibold">Maharashtra</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2020/02/Masor-Tenga-Assam.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Masor Tenga</span>
+            <p class="text-[12px] text-slate-700 font-semibold">Assam</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2020/02/Rogan-Josh-Kashmir.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Rogan Josh</span>
+            <p class="text-[12px] text-slate-700 font-semibold">Kashmir</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2016/10/Chicken-Hyderabadi-Biryani.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Biryani</span>
+            <p class="text-[12px] text-slate-700 font-semibold">Hyderabad</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2020/02/Malai-Kofta.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Malai Kofta</span>
+            <p class="text-[12px] text-slate-700 font-semibold">All India</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2020/02/Palak-Paneer-1024x768.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span> Palak Paneer</span>
+            <p class="text-[12px] text-slate-700 font-semibold">All India</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2016/09/Masala-Dosa-Karnataka.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Dosa</span>
+            <p class="text-[12px] text-slate-700 font-semibold">South India</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2017/12/Dhokla-Gujarat.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Dhokla</span>
+            <p class="text-[12px] text-slate-700 font-semibold">Gujarat</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2020/02/Avial.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Avial</span>
+            <p class="text-[12px] text-slate-700 font-semibold">
+              Southern Tamil Nadu and Kerala
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2015/08/Kichadi-Haryana.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Khichdi</span>
+            <p class="text-[12px] text-slate-700 font-semibold">All India</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2020/02/Gajak-Rajasthan.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span> Gajak</span>
+            <p class="text-[12px] text-slate-700 font-semibold">Rajasthan</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2020/02/Pesarattu-Andhra-Pradesh.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Pesarattu</span>
+            <p class="text-[12px] text-slate-700 font-semibold">
+              Andhra Pradesh
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2017/12/Tan-Manipur.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Tan With Changaang</span>
+            <p class="text-[12px] text-slate-700 font-semibold">Manipur</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2020/02/Bai-Mizoram-1024x768.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Bai</span>
+            <p class="text-[12px] text-slate-700 font-semibold">Mizoram</p>
+          </div>
+        </div>
+
+        <div
+          class="h-52 w-60 bg-purple-300 hover:bg-rose-300 border-solid border-rose-400 border-[2px] rounded-lg overflow-hidden flex flex-col items-center"
+        >
+          <div>
+            <img
+              class="w-60 h-40 flex flex-col border-solid border-[1px]"
+              src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2020/02/Pao-Goa.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <span>Pao</span>
+            <p class="text-[12px] text-slate-700 font-semibold">Goa</p>
+          </div>
+        </div>
+      </div>
+      <!-- content ends here  -->
+    </div>
+  </body>
+</html>
